@@ -1,3 +1,5 @@
-# hello
+app = lambda do |env|
+  [200, { 'Content-Type' => 'text/plain' }, ['Hello World']]
+end
 
-this is my readme
+run app
